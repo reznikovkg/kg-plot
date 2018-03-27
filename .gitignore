@@ -1,2 +1,6 @@
 /Debug/*
 /.vs/*
+/lib/*
+*.sln
+*.txt
+/include/*
