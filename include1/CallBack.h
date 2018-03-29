@@ -14,6 +14,8 @@ INT_PTR CALLBACK About(HWND hDlg, UINT message, WPARAM wParam, LPARAM lParam)
 		switch (LOWORD(wParam))
 		{
 		case IDC_BUTTON1: {
+			_inverseGRID();
+			InvalidateRect(hDlg, nullptr, false);
 			break;
 		}
 		case IDOK: {
